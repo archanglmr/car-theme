@@ -1,0 +1,17 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/public/styles/"
+    }
+  ],
+  "liveSassCompile.settings.includeItems": [
+    "/styles/"
+  ],
+  "liveSassCompile.settings.showOutputWindow": false,
+  "liveServer.settings.root": "/public/",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true
+}

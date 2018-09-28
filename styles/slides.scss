@@ -1,0 +1,50 @@
+@import 'config';
+
+.slides {
+  // padding: 1px;
+  border: 1px solid $header-background-color;
+  margin: 0 auto 1rem auto;
+  // width: 100%;
+  // text-align: center;
+
+  ul {
+    position: relative;
+    margin: 0 auto;
+    li {
+      text-align: center;
+      opacity: 0;
+      z-index: 10;
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+      top: 0;
+      left: 0;
+      position: absolute;
+      transition: opacity 2s;
+
+      &:first-child {
+        position: initial;
+      }
+      &.last {
+        z-index: 30;
+        opacity: 0;
+      }
+      &.current {
+        z-index: 20;
+        opacity: 1;
+      }
+    }
+    // width: 100%;
+    // li {
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    // }
+  }
+  img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+  }
+}

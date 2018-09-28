@@ -1,0 +1,45 @@
+.slides {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  margin: 0 auto 1rem auto;
+}
+
+.slides ul {
+  position: relative;
+  margin: 0 auto;
+}
+
+.slides ul li {
+  text-align: center;
+  opacity: 0;
+  z-index: 10;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  position: absolute;
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+.slides ul li:first-child {
+  position: initial;
+}
+
+.slides ul li.last {
+  z-index: 30;
+  opacity: 0;
+}
+
+.slides ul li.current {
+  z-index: 20;
+  opacity: 1;
+}
+
+.slides img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+/*# sourceMappingURL=slides.css.map */

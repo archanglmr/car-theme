@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/slides.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="slides">
+      <ul id="car-show">
+        <li><img src="images/slides/group1.jpg" alt="Gropu 1" /></li>
+        <li><img src="images/slides/group2.jpg" alt="Gropu 3" /></li>
+        <li><img src="images/slides/group3.jpg" alt="Gropu 3" /></li>
+        <li><img src="images/slides/judge.jpg" alt="Judge" /></li>
+      </ul>
+    </div>
+    <h1>My Awsome Collection</h1>
+    <section class="sidebar">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rhoncus et velit at feugiat. Quisque ultricies dictum eros nec congue. Duis erat ligula, suscipit porttitor lacus id, mollis hendrerit massa. Fusce sit amet iaculis ipsum, at egestas tortor. Proin id nisl et eros tempor aliquam vitae in enim. Aliquam lectus lacus, tincidunt vitae mi vitae, dignissim posuere tellus. Morbi non laoreet nisi, gravida congue lorem. Sed consequat, tortor non accumsan malesuada, justo est dictum tortor, ac commodo elit velit congue ex.</p>
+      <p>Morbi a orci vel dui varius tincidunt eu at erat. Phasellus odio urna, pharetra id euismod in, lacinia in urna. Integer varius venenatis felis, eu semper nisl consectetur quis. Quisque accumsan nunc vel sem efficitur molestie. Vestibulum gravida ac urna nec ullamcorper. Mauris odio orci, lacinia non faucibus a, mattis a erat. Nullam pharetra nisi quis leo dapibus, eget faucibus odio viverra. Phasellus sodales, turpis quis tempor tempor, mi leo pretium nisi, nec tristique magna dolor in dolor. Cras et mattis dui. Sed porta dapibus magna eu cursus. Vestibulum facilisis ultrices lorem, eu sollicitudin tortor dapibus nec. Quisque id lorem sit amet felis posuere pharetra non vel enim. Nunc dapibus nibh eget eleifend venenatis. Sed porttitor malesuada dui, ut molestie dui eleifend ac.</p>
+    </section>
+    <aside>
+      [Logo 1]
+      [Logo 2]
+      [Logo 3]
+      [Logo 4]
+    </aside>
+  </main>
+  <footer>
+    &copy; Copywrite someone's name here
+  </footer>
+  <script src="scripts/slides.js"></script>
+  <script>
+    let show = slide_show('car-show', 5000);
+  </script>
+</body>
+</html>
